@@ -1,0 +1,14 @@
+
+ash.txt
+*.txt
+*.PNG
+*.psd
+*.zip
+*.xml
+notepad-plus-plus-master/LICENSE
+notepad-plus-plus-master/README.md
+projecteuler/prob3.pyc
+projecteuler/prob4.py
+notepad-plus-plus-master/.github/issue_template.md
+notepad-plus-plus-master/.github/pull_request_template.md
+blog/raw_input.py
