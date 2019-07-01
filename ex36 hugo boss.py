@@ -113,10 +113,10 @@ Choose your problem.
 	elif bar_problems == "2":
 		print "Hugo's eyes light up."
 		print "Hugo says he can tell you are ambitious and you should be confused."
-		print "\"I'll offer you one piece of advice.\" Hugo says, before taking a sip of his drink."
+		print "\"I'll offer you one piece of advice, %r.\" Hugo says, before taking a sip of his drink." % (name)
 		print """\"Keep asking questions like that. I can't solve that for you because I am not you. 
 Just keep asking those questions and ponder them seriously.\" Hugo pays for the drinks
-and you both leave the bar.""" % (which_drink, name)
+and you both leave the bar.""" 
 		car_talk()
 	else:
 		print "That's not an option. Try again."
