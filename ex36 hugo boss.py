@@ -115,22 +115,13 @@ Choose your problem.
 		print "Hugo says he can tell you are ambitious and you should be confused."
 		print "\"I'll offer you one piece of advice.\" Hugo says, before taking a sip of his drink."
 		print """\"Keep asking questions like that. I can't solve that for you because I am not you. 
-Just keep asking those questions and ponder them seriously.\" You look at Hugo as he takes another sip.
-You pick up your %r and take a sip. After a pause, Hugo says \"I like you, %r.\" before throwing back the
-remainder of his drink. \"Meditate on it. It'll do you well. Follow the light.\" Hugo pays for the drinks
+Just keep asking those questions and ponder them seriously.\" Hugo pays for the drinks
 and you both leave the bar.""" % (which_drink, name)
 		car_talk()
 	else:
 		print "That's not an option. Try again."
 		bar_talk()
 
-
-## This needs editing
-def hugo_questions():
-	print """Hugo looks slightly surprised and says \"You can get any drink 
-you wish, the drinks are on me!\"
-How do you respond?"""
-	pass 
 
 def bar_talk():
 	print """You and Hugo arrive at the bar.
@@ -143,10 +134,7 @@ The menu reads:"""
 	global which_drink
 	which_drink = raw_input("> ")
 
-	if which_drink == "water":
-		hugo_questions()
-	else:
-		deep_bar_talk()
+	deep_bar_talk()
 		
 def bar_req():
 	print """You ask Hugo about your problems.
