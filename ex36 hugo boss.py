@@ -76,7 +76,7 @@ in Hugo's car safely."""
 leg during a grapple.""")
 
 	elif robbery_reaction == "3":
-		print "Hugo joins you in your car. He thanks you for taking you home."
+		print "Hugo joins you in your car. He thanks you for him you home."
 		win()
 
 
