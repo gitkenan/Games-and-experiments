@@ -2,7 +2,7 @@
 
 primes = []
 
-for possibility in range(2, 1000):
+for possibility in range(2, 3000000):
 	isPrime = True
 	for num in range(2, possibility):
 		if possibility % num == 0:
