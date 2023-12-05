@@ -19,3 +19,7 @@ and hit enter to run the game. If you have python 3 installed, you repeat the sa
 ```
 py 'ex36 hugo boss.py3'
 ```
+
+## AI Chatbot
+
+AI is just a way to feign intelligence. There are different levels to that, so we'll use this space as a way to take steps up the IQ ladder. 
